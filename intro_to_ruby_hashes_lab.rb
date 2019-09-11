@@ -1,8 +1,10 @@
 def new_hash
+  #creates and returns a new, empty hash.
   return ({})
 end
 
 def my_hash
+  
   return ({name: "james"})
 end
 
