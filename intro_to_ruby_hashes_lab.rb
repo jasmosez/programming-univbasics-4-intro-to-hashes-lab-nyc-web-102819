@@ -34,7 +34,7 @@ def update_counting_hash(hash, key)
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
   
-  value = hash.fetch(key) {|k| hash["#{k}"] = 0 }
+  value = hash.fetch(key) {|k| hash[:#{k}] = 0 }
   hash[key] = value + 1
   return hash
 end
