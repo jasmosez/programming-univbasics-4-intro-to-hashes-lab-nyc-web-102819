@@ -1,10 +1,12 @@
 def new_hash
-  #creates and returns a new, empty hash.
+  # creates and returns a new, empty hash.
   return ({})
 end
 
 def my_hash
-  
+  # returns a valid hash. This hash should have at least one key/value pair of your choice.
+
+
   return ({name: "james"})
 end
 
