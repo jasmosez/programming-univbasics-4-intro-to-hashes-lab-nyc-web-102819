@@ -5,8 +5,6 @@ end
 
 def my_hash
   # returns a valid hash. This hash should have at least one key/value pair of your choice.
-
-
   return ({name: "james"})
 end
 
@@ -23,7 +21,7 @@ end
 
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  return ({key: value})
+  return ({key => value})
 end
 
 def read_from_hash(hash, key)
